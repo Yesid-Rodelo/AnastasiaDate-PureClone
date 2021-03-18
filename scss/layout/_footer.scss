@@ -1,0 +1,38 @@
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #273746;
+    padding: 0 2rem;
+    margin-top: 2rem;
+
+    .copy {
+      display: flex;
+      p {
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+    .faq {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      p {
+        color: white;
+      }
+      ul {
+        display: flex;
+        li {
+          margin-left: 1rem;
+          position: relative;
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+    @media (max-width: 462px) {
+      flex-direction: column;
+    }
+  }
